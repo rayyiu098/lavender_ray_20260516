@@ -124,14 +124,17 @@ nav a:hover::after {
 /* Hero Section */
 header {
     height: 100vh;
+    /* Fallback color if image fails to load (prevents ugly grey) */
+    background-color: var(--primary-color);
+    
     /* 
        To use the specific Auberge Discovery Bay Pavilion photo:
-       1. Download a photo of the pavilion (e.g., from their website or your own collection).
-       2. Save it to an 'images' folder as 'pavilion.jpg'.
-       3. Update the line below to: background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('images/pavilion.jpg');
+       1. Download the photo.
+       2. Save it as 'pavilion.jpg' in an 'images' folder.
+       3. Update the url below to: url('images/pavilion.jpg');
     */
-    /* Current placeholder: Auberge Discovery Bay Pavilion (Seaside Chapel) */
-    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.4)), url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Auberge_Discovery_Bay_Hong_Kong.jpg/1280px-Auberge_Discovery_Bay_Hong_Kong.jpg');
+    /* Placeholder: Beautiful Seaside Glass Chapel (Reliable Unsplash Link) */
+    background-image: linear-gradient(rgba(44, 95, 133, 0.4), rgba(44, 95, 133, 0.4)), url('https://images.unsplash.com/photo-1519741497674-611481863552?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
