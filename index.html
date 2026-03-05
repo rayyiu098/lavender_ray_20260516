@@ -9,62 +9,83 @@
 </head>
 <body>
     <header id="home">
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#story">Our Story</a></li>
-                <li><a href="#details">Details</a></li>
-                <li><a href="#rsvp">RSVP</a></li>
-            </ul>
+        <nav id="navbar">
+            <div class="nav-container">
+                <a href="#home" class="logo">[N] & [N]</a>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#story">Our Story</a></li>
+                    <li><a href="#details">Details</a></li>
+                    <li><a href="#rsvp">RSVP</a></li>
+                </ul>
+            </div>
         </nav>
-        <div class="hero-content">
+        <div class="hero-content fade-in-section">
+            <p class="pre-title">The Wedding of</p>
             <h1>[Name] & [Name]</h1>
             <p class="date">[Month] [Day], [Year]</p>
             <p class="location">[City, State/Country]</p>
             <div id="countdown">
-                <div><span id="days">00</span> Days</div>
-                <div><span id="hours">00</span> Hours</div>
-                <div><span id="minutes">00</span> Minutes</div>
-                <div><span id="seconds">00</span> Seconds</div>
+                <div class="countdown-item"><span id="days">00</span>Days</div>
+                <div class="countdown-item"><span id="hours">00</span>Hours</div>
+                <div class="countdown-item"><span id="minutes">00</span>Minutes</div>
+                <div class="countdown-item"><span id="seconds">00</span>Seconds</div>
             </div>
+        </div>
+        <div class="scroll-down">
+            <span></span>
+            <span></span>
+            <span></span>
         </div>
     </header>
 
-    <section id="story" class="container">
-        <h2>Our Story</h2>
-        <p>This is where you can write a brief story about how you met, your journey together, and what led to this special day. Customize this text to share your unique love story with your guests.</p>
-        <div class="story-image-placeholder">
-            [Add a photo of the couple here]
+    <section id="story" class="container fade-in-section">
+        <div class="story-content">
+            <div class="story-text">
+                <h2>Our Story</h2>
+                <p>This is where you can write a brief story about how you met, your journey together, and what led to this special day. Customize this text to share your unique love story with your guests.</p>
+                <p>We met at a coffee shop on a rainy Tuesday...</p>
+            </div>
+            <div class="story-image">
+                <div class="story-image-placeholder">
+                    [Add a photo of the couple here]
+                </div>
+            </div>
         </div>
     </section>
 
-    <section id="details" class="container bg-light">
+    <section id="details" class="container bg-light fade-in-section">
         <h2>Wedding Details</h2>
         <div class="details-grid">
             <div class="detail-card">
+                <div class="icon">💍</div>
                 <h3>Ceremony</h3>
-                <p><strong>Time:</strong> [00:00 AM/PM]</p>
-                <p><strong>Venue:</strong> [Ceremony Venue Name]</p>
-                <p><strong>Address:</strong> [123 Wedding Lane, City]</p>
+                <p class="time"><strong>Time:</strong> [00:00 AM/PM]</p>
+                <p class="venue"><strong>Venue:</strong> [Ceremony Venue Name]</p>
+                <p class="address">[123 Wedding Lane, City]</p>
                 <a href="#" class="map-link">View Map</a>
             </div>
             <div class="detail-card">
+                <div class="icon">🥂</div>
                 <h3>Reception</h3>
-                <p><strong>Time:</strong> [00:00 AM/PM]</p>
-                <p><strong>Venue:</strong> [Reception Venue Name]</p>
-                <p><strong>Address:</strong> [456 Party Street, City]</p>
-                <p>Dinner and dancing to follow!</p>
+                <p class="time"><strong>Time:</strong> [00:00 AM/PM]</p>
+                <p class="venue"><strong>Venue:</strong> [Reception Venue Name]</p>
+                <p class="address">[456 Party Street, City]</p>
+                <p class="note">Dinner and dancing to follow!</p>
+                <a href="#" class="map-link">View Map</a>
             </div>
         </div>
     </section>
 
-    <section id="rsvp" class="container">
-        <h2>RSVP</h2>
-        <p>We can't wait to celebrate with you! Please let us know if you can make it.</p>
-        <p>Please RSVP by [RSVP Deadline Date].</p>
-        <!-- Suggest using Google Forms or similar for static sites -->
-        <a href="[Link to Google Form or Typeform]" class="btn">RSVP Here</a>
-        <p class="note">Or email us at <a href="mailto:email@example.com">email@example.com</a></p>
+    <section id="rsvp" class="container fade-in-section">
+        <div class="rsvp-content">
+            <h2>RSVP</h2>
+            <p class="rsvp-text">We can't wait to celebrate with you! Please let us know if you can make it.</p>
+            <p class="rsvp-deadline">Please RSVP by [RSVP Deadline Date]</p>
+            <!-- Suggest using Google Forms or similar for static sites -->
+            <a href="[Link to Google Form or Typeform]" class="btn btn-primary">RSVP Here</a>
+            <p class="note">Or email us at <a href="mailto:email@example.com">email@example.com</a></p>
+        </div>
     </section>
 
     <footer>
