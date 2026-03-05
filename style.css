@@ -130,8 +130,8 @@ header {
        2. Save it to an 'images' folder as 'pavilion.jpg'.
        3. Update the line below to: background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('images/pavilion.jpg');
     */
-    /* Current placeholder: A modern seaside white chapel vibe */
-    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1544124339-427176229877?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
+    /* Current placeholder: Auberge Discovery Bay Pavilion (Seaside Chapel) */
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.4)), url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Auberge_Discovery_Bay_Hong_Kong.jpg/1280px-Auberge_Discovery_Bay_Hong_Kong.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
