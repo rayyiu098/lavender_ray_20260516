@@ -1,7 +1,6 @@
 // Set the date we're counting down to
-// Placeholder date: 3 months from now
-const weddingDate = new Date();
-weddingDate.setMonth(weddingDate.getMonth() + 3);
+// Date from invitation: May 16, 2026
+const weddingDate = new Date('May 16, 2026 12:00:00');
 
 function updateCountdown() {
     const now = new Date().getTime();
