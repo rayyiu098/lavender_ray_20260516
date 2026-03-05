@@ -1,19 +1,19 @@
 :root {
-    /* Modern Palette: Sage Green & Gold */
-    --primary-color: #8A9A5B; /* Sage Green */
-    --primary-dark: #5e6b3d;
-    --accent-color: #C5A059; /* Muted Gold */
-    --text-color: #2C3E50; /* Dark Blue/Grey */
-    --text-light: #6c757d;
-    --background-color: #FDFBF7; /* Cream/Off-white */
+    /* Auberge Discovery Bay Palette: Ocean Blue & White Chapel */
+    --primary-color: #2c5f85; /* Deep Ocean Blue */
+    --primary-dark: #1a3c54;
+    --accent-color: #d4af37; /* Elegant Gold */
+    --text-color: #2C3E50;
+    --text-light: #607d8b; /* Blue-grey text */
+    --background-color: #f0f8ff; /* Alice Blue / Very light water tint */
     --white: #ffffff;
     
     --font-heading: 'Playfair Display', serif;
     --font-body: 'Lato', sans-serif;
     
     --transition: all 0.3s ease;
-    --shadow: 0 10px 30px rgba(0,0,0,0.05);
-    --shadow-hover: 0 15px 40px rgba(0,0,0,0.1);
+    --shadow: 0 10px 30px rgba(44, 95, 133, 0.1); /* Blue-tinted shadow */
+    --shadow-hover: 0 15px 40px rgba(44, 95, 133, 0.2);
 }
 
 html {
@@ -124,7 +124,8 @@ nav a:hover::after {
 /* Hero Section */
 header {
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://images.unsplash.com/photo-1519741497674-611481863552?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
+    /* Seaside / Chapel Placeholder */
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://images.unsplash.com/photo-1544124339-427176229877?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
