@@ -27,7 +27,7 @@ function updateCountdown() {
     if (distance < 0) {
         clearInterval(x);
         const countdownEl = document.getElementById("countdown");
-        if (countdownEl) countdownEl.innerHTML = "HAPPILY EVER AFTER!";
+        if (countdownEl) countdownEl.innerHTML = "新婚快樂！";
     }
 }
 
