@@ -551,6 +551,10 @@ h2::after {
     color: #e74c3c;
 }
 
+.no-wrap {
+    white-space: nowrap;
+}
+
 /* Footer */
 footer {
     background-color: var(--white);
