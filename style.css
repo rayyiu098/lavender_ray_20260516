@@ -140,9 +140,11 @@ header {
     */
     /* Using 0089.jpg as background with dark overlay for readability */
     background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('0089.jpg');
-    background-size: cover;
-    background-position: center 20%; /* Adjusting to show faces better */
-    background-attachment: fixed;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll; /* Changed from fixed to help with contain on some browsers */
+    background-color: #1a1a1a; /* Dark background to fill gaps */
     display: flex;
     align-items: center;
     justify-content: center;
