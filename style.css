@@ -138,10 +138,10 @@ header {
        2. Save it as 'pavilion.jpg' in an 'images' folder.
        3. Update the url below to: url('images/pavilion.jpg');
     */
-    /* Placeholder: Beautiful Seaside Glass Chapel (Reliable Unsplash Link) */
-    background-image: linear-gradient(rgba(44, 95, 133, 0.4), rgba(44, 95, 133, 0.4)), url('https://images.unsplash.com/photo-1519741497674-611481863552?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
+    /* Using 0089.jpg as background with dark overlay for readability */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('0089.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: center 20%; /* Adjusting to show faces better */
     background-attachment: fixed;
     display: flex;
     align-items: center;
